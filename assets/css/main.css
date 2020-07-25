@@ -8,33 +8,49 @@
 body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #FFF;
 }
 
 /*----------------Nav bar Styles ---------------*/
-
 nav {
     background-color: #FFF;
-    width: 100%;
 }
 
-.navbar{
-    margin-right: auto;
-    margin-left: auto;
+.navbar li {
+    padding-bottom: 40px;
+}
+
+.navbar .navbar-nav {
+    margin-top: 48px;
 }
 
 .navbar .book-button {
     background-color: #FF4A6B;
     border: none;
     margin-top: 227px;
+    margin-bottom: 40px;
+
 }
+
 .navbar .book-button:hover {
     background: #FF849A;
 }
 
-
 @media (min-width: 768px) {
     .navbar a {
         font-size: 1em;
+        line-height: 24px;
+    }
+
+    .navbar li {
+        padding-left: 40px;
+        padding-bottom: 0px;
+    }
+
+    .navbar img,
+    .navbar .navbar-nav {
+        margin-top: 20px;
+        padding-bottom: 20px;
     }
 
     .navbar .book-button {
@@ -44,8 +60,6 @@ nav {
 
 /*----------------Hero/Header Styles ---------------*/
 
-
-
 .background-image:before {
     content: '';
     position: absolute;
@@ -54,7 +68,6 @@ nav {
     right: 0;
     left: 0;
     background: rgba(255, 236, 236, 0.67);
-    height: 92%;
 }
 
 #heroArea h2 {
@@ -75,27 +88,39 @@ nav {
     z-index: 5;
     height: 54px;
     width: 144px;
+    border: none;
 }
+
 #heroArea .book-button:hover {
     background: #FF849A;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 448px) {
     .background-image {
-        background: url('../images/hero-image1.png');
+        background: url('../images/hero-image1.png') no-repeat;
+        height: 684px;
         background-size: cover;
-        height: 84%;
+        position: static;
+    }
+}
+
+@media (min-width: 449px) {
+    #heroArea h2 {
+        font-size: 2.2em;
+        line-height: 43px;
+        margin-top: 120px;
     }
 }
 
 @media (min-width: 768px) {
     #heroArea {
-        background-image: #FFECEC !important;
+        background-image: #FFECEC !important;      
     }
 
     #heroArea h2 {
         font-size: 3em;
-        line-height: 65px
+        line-height: 65px;
+        margin-top: 187px;
     }
 
     #heroArea p {
@@ -136,7 +161,7 @@ nav {
 
 #about .video-box {
     position: relative;
-    background-color: #000000;
+    background-color: #000;
     top: 298px;
     height: 102px;
     width: 257px;
@@ -148,10 +173,15 @@ nav {
     background-size: cover;
     background-position: center;
     height: 400px;
-    margin-bottom: 51px;
+    max-width: 700px;
+   
 }
 
 @media (min-width: 768px) {
+    #about {
+        height: 524px;
+    }
+
     #about h4 {
         font-size: 3em;
         margin-top: 122px;
@@ -179,8 +209,8 @@ nav {
     }
 
     #about .img-box {
-        margin-bottom: 120px;
-        margin-left: 20px;
+        margin-bottom: 120px; 
+         margin-left: 20px;
     }
 }
 
@@ -313,6 +343,7 @@ nav {
     height: 48px;
     color: #FFFFFF !important;
 }
+
 #products .nav-pills .active:hover {
     background: #FF849A;
 }
@@ -382,6 +413,7 @@ nav {
     height: 54px;
     width: 144px;
     margin-bottom: 48px;
+    border: none;
 }
 
 #past-work .book-button:hover {
@@ -391,6 +423,11 @@ nav {
 #past-work img {
     border-radius: 5px 5px 0px 0px;
 }
+
+.carousel-control-prev,
+    .carousel-control-next {
+        position: static;
+    } 
 
 #past-work .card-body {
     background-color: #000000;
@@ -403,10 +440,9 @@ nav {
 
 @media (min-width: 768px) {
     #past-work .carousel {
-    width: 25%;
-    
+        width: 25%;
     }
-
+      
     #past-work h4 {
         font-size: 3em;
         line-height: 65px
@@ -463,9 +499,10 @@ nav {
     border-radius: 5px;
     margin-bottom: 24px;
 }
+
 #pricing .book-button:hover {
     background: #FF849A;
-    color:#FFF;
+    color: #FFF;
 }
 
 #pricing .card {
@@ -507,10 +544,14 @@ nav {
     height: 54px;
     width: 144px;
     margin-bottom: 20px;
+    border: none;
 }
+
 #coupon .dis-button:hover {
     background: #FF849A;
+    
 }
+
 #coupon h1 {
     font-family: 'Prata', serif;
 }
@@ -620,9 +661,10 @@ nav {
         border-radius: 5px;
         margin-bottom: 0px;
     }
+
     #contact .mess-btn:hover {
-    background: #FF849A;
-}
+        background: #FF849A;
+    }
 
     #contact iframe {
         border-left: 40px #FF4A6B solid;
@@ -639,7 +681,7 @@ nav {
 
 /*----------------Footer Styles ---------------*/
 #footer {
-    background: #000000;
+    background: #141414;;
     color: #FFF;
 }
 
@@ -658,6 +700,10 @@ nav {
     font-family: 'Prata', serif;
     font-size: 1em;
     line-height: 22px;
+}
+
+#footer img {
+    margin-top:48px;
 }
 
 #footer .social-media {
@@ -695,9 +741,12 @@ nav {
     #footer p {
         font-size: 1em;
         text-align: left;
-        padding-right: 80px;
     }
-
+    
+#footer img {
+    margin-top:0px;
+}
+    
     #footer li {
         font-size: 1.125em;
     }
@@ -712,6 +761,7 @@ nav {
 
     #footer .com-explore {
         margin-left: 0px;
+        padding-left:90px;
     }
 
     #footer .com-explore,

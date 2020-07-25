@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +14,8 @@
     <!-- Awesome Fonts -->
     <script src="https://kit.fontawesome.com/99021df4e2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+    <link rel="stylesheet" href="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -21,15 +26,12 @@
 </head>
 
 <body id="page-up" class="">
-    <!---------- Container start section------------->
-    <div class="container-fluid p-0 ">
-        <!---------- Nav Bar ------------->
-
-        <nav class="navbar  navbar-expand-lg navbar-light sticky-top">
-            <a class="navbar-brand " href="./index.html">
+    <!------------------- Nav Bar content----------- -->
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light sticky-top px-0">
+        <div class="container-fluid navbar-container justify-content-md-center">
+            <a class="navbar-brand p-0 col-7 col-md-2 " href="./index.html">
                 <img class="img-fluid" src="./assets/images/Oyaglam-logo.png" alt="HNG Logo">
             </a>
-
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
                 aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -40,488 +42,494 @@
                             fill="black" />
                     </svg>
                 </span></button>
-
             <!-- Collapsible content -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent15">
-
+            <div class="p-0 col-md-8 navbar-collapse justify-content-end mb-4 collapse" id="navbarSupportedContent15">
                 <!-- Links -->
-                <ul class="navbar-nav">
+                <ul class="navbar-nav p-0">
                     <li class="nav-item active ">
-                        <a class="nav-link text-dark mr-3 h5" href="./index.html">Home <span
+                        <a class="nav-link text-dark p-0 h5" href="./index.html">Home <span
                                 class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item text-dark mr-3 ">
-                        <a class="nav-link text-dark h5" href="#heroArea">About Us</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark p-0 h5" href="#heroArea">About Us</a>
                     </li>
-                    <li class="nav-item text-dark mr-3">
-                        <a class="nav-link text-dark h5" href="#services">Services</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark p-0 h5" href="#services">Services</a>
                     </li>
-                    <li class="nav-item text-dark  mr-3 ">
-                        <a class="nav-link text-dark h5" href="#products">Products</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark p-0 h5" href="#products">Products</a>
                     </li>
-                    <li class="nav-item text-dark r mr-3 ">
-                        <a class="nav-link text-dark h5" href="#past-work">Gallery</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark p-0 h5" href="#past-work">Gallery</a>
                     </li>
-                    <li class="nav-item text-dark  mr-3 ">
-                        <a class="nav-link text-dark h5" href="#contact">Contact Us</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark p-0 h5" href="#contact">Contact Us</a>
                     </li>
                 </ul>
-                <div class="book-button  ">
-                    <a href="#"><button type="button"
-                            class="d-block d-sm-block d-md-block d-lg-none d-xl-none btn text-white text-center">Book
-                            Now</button></a>
-                </div>
-                <!-- Links -->
-            </div>
-            <!-- Collapsible content -->
-
-        </nav>
-
-        <!---------- Hero/Header start section------------->
-        <section id="heroArea" class="hero-area background-image">
-            <div class="container-fluid">
-
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-4 hero-box d-flex flex-column align-items-center">
-                        <h2 class="text-center text-md-left">Professional makeup artist for all events </h2>
-                        <p class="text-center text-md-left">We help you discover trendy beauty looks by offering
-                            the best makeup service for any event in Nigeria. Have a the awesome look now!</p>
-                        <div class="book-button align-self-md-start animate__animated animate__bounce ">
-                            <a href=" #"><button type="button" class="w-100 book-button btn text-white text-center">Book
-                                    Now</button></a>
-                        </div>
-                    </div>
-                    <div class="p-0 col-md-6 d-flex">
-                        <div class="animate__animated animate__slideInUp col-md-6 p-0 d-none d-sm-none d-md-block">
-                            <img class="img-fluid" src="./assets/images/hero-girls.png" alt="2 girls faces">
-                        </div>
-
-                        <div class="animate__animated animate__slideInDown col-md-6 p-0 d-none d-sm-none d-md-block">
-                            <img class="img-fluid" src="./assets/images/hero-image2.png" alt="Make-up compact">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row text-center mt-5 d-sm-none d-none d-md-block">
-                    <a class="" href="#contact">
-                        <svg width="35" height="72" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 35 72">
-                            <defs>
-                                <style>
-                                    .cls-8 {
-                                        fill: #ffecec;
-                                        stroke: #000;
-                                    }
-
-                                    .cls-9 {
-                                        fill: #000;
-                                    }
-                                </style>
-                            </defs>
-                            <path class="cls-8"
-                                d="M17.5.5h0a17,17,0,0,1,17,17v37a17,17,0,0,1-17,17h0a17,17,0,0,1-17-17v-37A17,17,0,0,1,17.5.5Z" />
-                            <path class="cls-9"
-                                d="M18.77,42V21.8c0-.44-.17-.8-.38-.8H16.61c-.21,0-.38.36-.38.8V42H14.76c-.68,0-1,1.73-.54,2.75L17,50.53c.3.63.78.63,1.08,0l2.74-5.76c.48-1,.14-2.75-.54-2.75Z" />
-                        </svg>
-                    </a>
+                <div class="book-button ">
+                    <button type="button"
+                        class="btn  mx-auto d-block d-sm-block d-md-none d-lg-none d-xl-none text-white text-center ">Book
+                        Now</button>
                 </div>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <!---------- About start section----------------->
-        <section id="about">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 d-flex flex-column align-items-md-end">
-                        <h4 class=" align-self-md-start">About <span class="">Oylaglam</span></h4>
-                        <p class="">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer
-                            dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas,
-                            dolor
-                            sem. Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer
-                            dolor
-                            ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor
-                            sem.
-                        </p>
-                    </div>
 
-                    <div class="col-12 col-md-6 p-0">
-                        <div class="color-line"></div>
-                        <div class="img-box">
-                            <div class="video-box d-flex justify-content-around align-items-center">
-                                <a class="ml-5" href="#"><svg width="48" height="48" id="Layer_1" data-name="Layer 1"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                        <defs>
-                                            <style>
-                                                .cls-5 {
-                                                    fill: #ff4a6b;
-                                                }
-                                            </style>
-                                        </defs>
-                                        <path class="cls-5"
-                                            d="M24,0A24,24,0,1,0,48,24,23.93,23.93,0,0,0,24,0Zm0,43.64A19.64,19.64,0,1,1,43.64,24,19.56,19.56,0,0,1,24,43.64Z" />
-                                        <path class="cls-5"
-                                            d="M31.85,22.2,18.76,13.47a2,2,0,0,0-2.18,0,1.67,1.67,0,0,0-1.31,1.75V32.67a2.31,2.31,0,0,0,1.09,2,2,2,0,0,0,1.09.21,3,3,0,0,0,1.31-.43l13.09-8.73A2,2,0,0,0,32.73,24a2.69,2.69,0,0,0-.88-1.75ZM19.64,28.53V19.36l7,4.59Z" />
-                                    </svg></a>
-                                <p class="m-0 pl-4 text-white">Watch Our Store video </p>
-                            </div>
-                        </div>
+    <!---------- Hero/Header start section------------->
+    <section id="heroArea" class="hero-area background-image">
+        <div class="container">
+            <div class="row">
+                <div class="p-0 col-12 col-sm-6 col-md-4 d-flex flex-column hero-box">
+                    <h2 class="text-center text-md-left">Professional makeup artist for all events </h2>
+                    <p class="text-center text-md-left">We help you discover trendy beauty looks by offering
+                        the best makeup service for any event in Nigeria. Have a the awesome look now!</p>
+
+                    <div class="book-button align-self-center align-self-md-start animate__animated animate__bounce ">
+                       <button type="button" class="w-100 book-button text-white text-center">Book
+                                Now</button>
                     </div>
+                </div>
+                <div
+                    class="p-0 text-md-right col-sm-6 col-md-4 align-self-sm-center animate__animated animate__slideInUp d-none d-sm-block">
+                    <img class="img-fluid" src="./assets/images/hero-girls.png" alt="2 girls faces">
+                </div>
+                <div
+                    class="text-md-right p-0 col-md-4 animate__animated animate__slideInDown d-none d-sm-none d-md-block">
+                    <img class="img-fluid" src="./assets/images/hero-image2.png" alt="Make-up compact">
                 </div>
             </div>
-        </section>
 
-        <!---------- Services start section------------->
-        <section id="services" class="services-area pb-5">
-            <div class="container-fluid">
-                <div class="row flex-column">
-                    <h4 class="col-8 col-md-5">Top notch Services</h4>
-                    <p class="col-12 col-md-7 text-white">Suscipit libero pretium nullam potenti. Interdum, blandit
-                        phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin
-                        pede nam maecenas, dolor sem. </p>
-                </div>
-
-                <div class="row row-cols-1 row-cols-md-3 lightpink-bg m-auto ">
-                    <div class="col my-4 d-flex justify-content-md-end justify-content-center">
-                        <!-- card 1 -->
-                        <div class="card justify-content-md-center animate__animated animate__flipInY">
-                            <img src="./assets/images/services1.png" class="card-img-top" alt="Lip Liner on Lips">
-                            <div class="card-body text-center">
-                                <h5 class="card-title p m-0 text-white">Daily <span>makeup</span></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col my-0 d-flex justify-content-center">
-                        <div class="card event-card animate__animated animate__flipInX">
-                            <img src="./assets/images/services2.png" class="card-img-top" alt="Wedding Make up">
-                            <div class="card-body text-center">
-                                <h5 class="card-title p m-0  text-white">Event <span>makeup</span></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card 3 -->
-                    <div class="col my-4 d-flex justify-content-md-start justify-content-center">
-                        <div class="card justify-content-md-center animate__animated animate__flipInY">
-                            <img src="./assets/images/services3.png" class="card-img-top" alt="Artistic Makeup on face">
-                            <div class="card-body text-center">
-                                <h5 class="card-title p m-0 text-white">Creative <span>makeup</span></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------- Products start section------------->
-        <section id="products" class="products-area">
-            <div class="container">
-                <div class="nav nav-pills text-center flex-column align-items-center">
-                    <h4 class=" col-12 col-md-4">Our Products</h4>
-                    <p class="col-12 col-md-5">Suscipit libero pretium nullam potenti. Interdum, blandit
-                        phasellus consectetuer dolor ornare </p>
-                </div>
-
-                <!-- Pill Buttons panes -->
-
-                <div class="row justify-content-start justify-content-md-center ">
-                    <ul class="nav nav-pills flex-nowrap" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link text-center active" data-toggle="pill" href="#all">All</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-center" data-toggle="pill" href="#cosmetics">Cosmetics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-center" data-toggle="pill" href="#hair">Hair</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
-                                href="#cream">Cream</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Tab panes  -->
-                <div class="tab-content">
-                    <!-- Tab panes All  -->
-                    <div id="all" class="tab-pane active"><br>
-                        <div class="row row-cols-2 row-cols-md-4">
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product1.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product2.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product3.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product4.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-sm-block col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product5.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-sm-block col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product6.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-sm-block col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product7.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-none d-sm-block col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product8.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab panes Cosmetics  -->
-
-                    <div id="cosmetics" class="tab-pane fade"><br>
-                        <div class="row row-cols-2 row-cols-md-4">
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product7.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product6.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product3.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Tab panes Hair  -->
-                    <div id="hair" class=" tab-pane fade"><br>
-                        <div class="row row-cols-2 row-cols-md-4 ">
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product5.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product4.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product2.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab panes Cream  -->
-                    <div id="cream" class=" tab-pane fade"><br>
-                        <div class="row row-cols-2 row-cols-md-4">
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product8.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product1.png" class="card-img-top" alt="">
-                                    <div class="card-body p-2 text-center">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="./assets/images/product2.png" class="card-img-top" alt="">
-                                    <div class="card-body text-center p-2">
-                                        <h5 class="card-title mb-1 text-white">Product Name</h5>
-                                        <p class="card-text m-0">$15</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Controls-->
-            <div class="row justify-content-center">
-                <div class="col-4 col-md-1 p-0 d-flex justify-content-between">
-                    <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 48 48">
+            <div class="row text-center mt-5 d-sm-none d-none d-md-block">
+                <a class="btn" href="#contact">
+                    <svg width="35" height="72" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 35 72">
                         <defs>
                             <style>
-                                .cls-1 {
-                                    fill: none;
-                                    stroke: #9b9b9b;
-                                }
-
-                                .cls-2 {
-                                    fill: #9b9b9b;
-                                }
-                            </style>
-                        </defs>
-                        <circle class="cls-1" cx="24" cy="24" r="23.5" />
-                        <path class="cls-2"
-                            d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
-                    </svg>
-                    <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 48 48">
-                        <defs>
-                            <style>
-                                .cls-1 {
-                                    fill: none;
+                                .cls-8 {
+                                    fill: #ffecec;
                                     stroke: #000;
                                 }
+
+                                .cls-9 {
+                                    fill: #000;
+                                }
                             </style>
                         </defs>
-                        <circle class="cls-1" cx="24" cy="24" r="23.5" />
-                        <path
-                            d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
+                        <path class="cls-8"
+                            d="M17.5.5h0a17,17,0,0,1,17,17v37a17,17,0,0,1-17,17h0a17,17,0,0,1-17-17v-37A17,17,0,0,1,17.5.5Z" />
+                        <path class="cls-9"
+                            d="M18.77,42V21.8c0-.44-.17-.8-.38-.8H16.61c-.21,0-.38.36-.38.8V42H14.76c-.68,0-1,1.73-.54,2.75L17,50.53c.3.63.78.63,1.08,0l2.74-5.76c.48-1,.14-2.75-.54-2.75Z" />
                     </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!---------- About start section----------------->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex flex-column align-items-md-end">
+                    <h4 class=" align-self-md-start">About <span class="">Oyaglam</span></h4>
+                    <p class="">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus
+                        consectetuer
+                        dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam
+                        maecenas,
+                        dolor
+                        sem. Suscipit libero pretium nullam potenti. Interdum, blandit phasellus
+                        consectetuer
+                        dolor
+                        ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas,
+                        dolor
+                        sem.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 p-0">
+                    <div class="color-line"></div>
+                    <div class="img-box">
+                        <div class="video-box d-flex justify-content-around align-items-center">
+                            <a class="ml-5" href="#"><svg width="48" height="48" id="Layer_1" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                                    <defs>
+                                        <style>
+                                            .cls-5 {
+                                                fill: #ff4a6b;
+                                            }
+                                        </style>
+                                    </defs>
+                                    <path class="cls-5"
+                                        d="M24,0A24,24,0,1,0,48,24,23.93,23.93,0,0,0,24,0Zm0,43.64A19.64,19.64,0,1,1,43.64,24,19.56,19.56,0,0,1,24,43.64Z" />
+                                    <path class="cls-5"
+                                        d="M31.85,22.2,18.76,13.47a2,2,0,0,0-2.18,0,1.67,1.67,0,0,0-1.31,1.75V32.67a2.31,2.31,0,0,0,1.09,2,2,2,0,0,0,1.09.21,3,3,0,0,0,1.31-.43l13.09-8.73A2,2,0,0,0,32.73,24a2.69,2.69,0,0,0-.88-1.75ZM19.64,28.53V19.36l7,4.59Z" />
+                                </svg></a>
+                            <p class="m-0 pl-4 text-white">Watch Our Store video </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--/.Controls-->
-        </section>
+        </div>
+    </section>
 
-        <!---------- Past Work start section------------->
-        <section id="past-work" class="past-area">
-            <div class="bg-box">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-md-6 text-center ">
-                            <h4 class="">Gallery from Past work</h4>
-                            <p class="text-white">Suscipit libero pretium nullam potenti. Interdum, blandit
-                                phasellus
-                                consectetuer
-                                dolor
-                            </p>
+    <!---------- Services start section------------->
+    <section id="services" class="services-area services pb-5">
+        <div class="container-fluid">
+            <div class="row flex-column">
+                <h4 class="col-8 col-md-5">Top notch Services</h4>
+                <p class="col-12 col-md-7 text-white">Suscipit libero pretium nullam potenti. Interdum,
+                    blandit
+                    phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus
+                    sollicitudin
+                    pede nam maecenas, dolor sem. </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 lightpink-bg m-auto ">
+                <div class=" col my-4 d-flex justify-content-md-end justify-content-center">
+                    <!-- card 1 -->
+                    <div class="card justify-content-md-center wow slideInLeft">
+                        <img src="./assets/images/services1.png" class="card-img-top" alt="Lip Liner on Lips">
+                        <div class="card-body text-center">
+                            <h5 class="card-title p m-0 text-white">Daily <span>makeup</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col my-0 d-flex justify-content-center">
+                    <div class="card event-card wow slideInUp ">
+                        <img src="./assets/images/services2.png" class="card-img-top" alt="Wedding Make up">
+                        <div class="card-body text-center">
+                            <h5 class="card-title p m-0  text-white">Event <span>makeup</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="col my-4 d-flex justify-content-md-start justify-content-center">
+                    <div class="card justify-content-md-center wow slideInRight ">
+                        <img src="./assets/images/services3.png" class="card-img-top" alt="Artistic Makeup on face">
+                        <div class="card-body text-center">
+                            <h5 class="card-title p m-0 text-white">Creative <span>makeup</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------- Products start section------------->
+    <section id="products" class="products-area">
+        <div class="container">
+            <div class="nav nav-pills text-center flex-column align-items-center">
+                <h4 class=" col-12 col-md-4">Our Products</h4>
+                <p class="col-12 col-md-5">Suscipit libero pretium nullam potenti. Interdum, blandit
+                    phasellus consectetuer dolor ornare </p>
+            </div>
+
+            <!-- Pill Buttons panes -->
+
+            <div class="row justify-content-start justify-content-md-center ">
+                <ul class="nav nav-pills flex-nowrap" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link text-center active" data-toggle="pill" href="#all">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" data-toggle="pill" href="#cosmetics">Cosmetics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" data-toggle="pill" href="#hair">Hair</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
+                            href="#cream">Cream</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tab panes  -->
+            <div class="tab-content">
+                <!-- Tab panes All  -->
+                <div id="all" class="tab-pane active"><br>
+                    <div class="row row-cols-2 row-cols-md-4">
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product1.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product2.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product3.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product4.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-block col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product5.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-block col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product6.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-block col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product7.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-sm-block col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product8.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab panes Cosmetics  -->
+
+                <div id="cosmetics" class="tab-pane fade"><br>
+                    <div class="row row-cols-2 row-cols-md-4">
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product7.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product6.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product3.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
-                <!------------ Carousel start ------->
-                <div id="carouselExampleControls" class=" carousel mx-auto slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <!-- Carousel slides -->
-                        <div class="carousel-item active">
-                            <div class="col ">
-                                <div class="card">
-                                    <img src="./assets/images/Slide1.png" class="card-img-top img-fluid d-block w-100"
-                                        alt="Women with Colored Makeup">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title p text-white">Creative<span>makeup</span></h5>
-                                    </div>
+                <!-- Tab panes Hair  -->
+                <div id="hair" class=" tab-pane fade"><br>
+                    <div class="row row-cols-2 row-cols-md-4 ">
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product5.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./assets/images/slide2.png" class="card-img-top img-fluid  d-block w-100"
-                                        alt="Putting Lip Liner on">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title p text-white">Daily<span>makeup</span></h5>
-                                    </div>
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product4.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./assets/images/slide3.png" class="card-img-top img-fluid  d-block w-100"
-                                        alt="Women posing with lemon"">
-                                        <div class=" card-body text-center">
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product2.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab panes Cream  -->
+                <div id="cream" class=" tab-pane fade"><br>
+                    <div class="row row-cols-2 row-cols-md-4">
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product8.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product1.png" class="card-img-top" alt="">
+                                <div class="card-body p-2 text-center">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="./assets/images/product2.png" class="card-img-top" alt="">
+                                <div class="card-body text-center p-2">
+                                    <h5 class="card-title mb-1 text-white">Product Name</h5>
+                                    <p class="card-text m-0">$15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Controls-->
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-1 p-0 d-flex justify-content-between">
+                <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #9b9b9b;
+                            }
+
+                            .cls-2 {
+                                fill: #9b9b9b;
+                            }
+                        </style>
+                    </defs>
+                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
+                    <path class="cls-2"
+                        d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
+                </svg>
+                <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #000;
+                            }
+                        </style>
+                    </defs>
+                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
+                    <path
+                        d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
+                </svg>
+            </div>
+        </div>
+        <!--/.Controls-->
+    </section>
+
+    <!---------- Past Work start section------------->
+
+    <section id="past-work" class="past-area">
+        <div class="bg-box">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-6 text-center ">
+                        <h4 class="">Gallery from Past work</h4>
+                        <p class="text-white">Suscipit libero pretium nullam potenti. Interdum, blandit
+                            phasellus
+                            consectetuer
+                            dolor
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!------------ Carousel start ------->
+
+            <div id="carouselExampleControls" class=" carousel mx-auto slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Carousel slides -->
+                    <div class="carousel-item active">
+                        <div class="col ">
+                            <div class="card">
+                                <img src="./assets/images/Slide1.png" class="card-img-top img-fluid d-block w-100"
+                                    alt="Women with Colored Makeup">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title p text-white">Creative<span>makeup</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./assets/images/slide2.png" class="card-img-top img-fluid  d-block w-100"
+                                    alt="Putting Lip Liner on">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title p text-white">Daily<span>makeup</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./assets/images/slide3.png" class="card-img-top img-fluid  d-block w-100"
+                                    alt="Women posing with lemon">
+                                <div class="card-body text-center">
                                     <h5 class="card-title p text-white">Creative <span>makeup</span></h5>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="col">
                             <div class="card">
@@ -533,6 +541,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="col">
                             <div class="card">
@@ -543,8 +552,8 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
+
                     <div class="carousel-item">
                         <div class="col">
                             <div class="card">
@@ -556,6 +565,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="col">
                             <div class="card">
@@ -568,56 +578,56 @@
                         </div>
                     </div>
                 </div>
-                <!-- Carousel controls -->
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="" aria-hidden="true"><svg id="Layer_1" data-name="Layer 1"
-                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                            <defs>
-                                <style>
-                                    .cls-3 {
-                                        fill: #ff4a6b;
-                                    }
-
-                                    .cls-4 {
-                                        fill: #fff;
-                                    }
-                                </style>
-                            </defs>
-                            <circle class="cls-3" cx="24" cy="24" r="24" />
-                            <path class="cls-4"
-                                d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
-                        </svg></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="" aria-hidden="true"><svg id="Layer_1" data-name="Layer 1"
-                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                            <defs>
-                                <style>
-                                    .cls-3 {
-                                        fill: #ff4a6b;
-                                    }
-
-                                    .cls-4 {
-                                        fill: #fff;
-                                    }
-                                </style>
-                            </defs>
-                            <circle class="cls-3" cx="24" cy="24" r="24" />
-                            <path class="cls-4"
-                                d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
-                        </svg></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-
-                <!-- button  -->
-                <div class="book-button mx-auto ">
-                    <a class="" href="#"><button type="button" class="w-100 book-button btn text-white text-center">Book
-                            Now</button></a>
-                </div>
             </div>
-    </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="" aria-hidden="true"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48">
+                    <defs>
+                        <style>
+                            .cls-3 {
+                                fill: #ff4a6b;
+                            }
+
+                            .cls-4 {
+                                fill: #fff;
+                            }
+                        </style>
+                    </defs>
+                    <circle class="cls-3" cx="24" cy="24" r="24" />
+                    <path class="cls-4"
+                        d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
+                </svg></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="" aria-hidden="true"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48">
+                    <defs>
+                        <style>
+                            .cls-3 {
+                                fill: #ff4a6b;
+                            }
+
+                            .cls-4 {
+                                fill: #fff;
+                            }
+                        </style>
+                    </defs>
+                    <circle class="cls-3" cx="24" cy="24" r="24" />
+                    <path class="cls-4"
+                        d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
+                </svg></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+        <!-- button  -->
+        <button type="button" class="mx-auto book-button text-white text-center">Book
+            Now</button>
+
     </section>
 
     <!---------- Pricing start section--------------->
@@ -626,8 +636,7 @@
             <div class="col-11 col-md-5 text-center">
                 <h2 class="">Our Pricing</h2>
                 <p class="">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer
-                    dolor
-                    ornare dapibus enim ut tincidunt</p>
+                    dolor ornare dapibus enim ut tincidunt</p>
             </div>
         </div>
 
@@ -642,10 +651,8 @@
                             blandit
                             phasellus
                             consectetuer dolor ornare dapibus enim ut tincidunt </p>
-                        <div class="book-button mx-auto ">
-                            <a class="" href="#"><button type="button" class="w-100 btn book-button text-center">Book
-                                    Now</button></a>
-                        </div>
+                        <button type="button" class=" mx-auto  book-button text-center">Book
+                            Now</button>
                     </div>
                 </div>
 
@@ -657,10 +664,8 @@
                             blandit
                             phasellus
                             consectetuer dolor ornare dapibus enim ut tincidunt </p>
-                        <div class="book-button mx-auto ">
-                            <a class="" href="#"><button type="button" class="w-100 btn book-button text-center">Book
-                                    Now</button></a>
-                        </div>
+                        <button type="button" class=" mx-auto book-button text-center">Book
+                            Now</button>
                     </div>
                 </div>
 
@@ -672,10 +677,8 @@
                             blandit
                             phasellus
                             consectetuer dolor ornare dapibus enim ut tincidunt </p>
-                        <div class="book-button mx-auto ">
-                            <a class="" href="#"><button type="button" class="w-100 btn book-button text-center">Book
-                                    Now</button></a>
-                        </div>
+                        <button type="button" class=" mx-auto book-button text-center">Book
+                            Now</button>
                     </div>
                 </div>
 
@@ -687,14 +690,13 @@
                             blandit
                             phasellus
                             consectetuer dolor ornare dapibus enim ut tincidunt </p>
-                        <div class="book-button mx-auto ">
-                            <a class="" href="#"><button type="button" class="w-100 btn book-button text-center">Book
-                                    Now</button></a>
-                        </div>
+                        <button type="button" class=" mx-auto book-button text-center">Book
+                            Now</button>
+
                     </div>
                 </div>
-
             </div>
+        </div>
     </section>
 
     <!---------- Coupons start section-------------->
@@ -706,8 +708,8 @@
                 <p class="mb-0 pt-2">your discount on your first makeup with us at Oyaglam </p>
             </div>
             <div class="mt-3 mx-auto">
-                <a class="mb-4 mt-3" href="#"><button type="button" class=" dis-button btn text-white text-center">Get
-                        Discount</button></a>
+                <button type="button" class="mb-4 mt-3 dis-button btn text-white text-center">Get
+                    Discount</button>
             </div>
         </div>
     </section>
@@ -763,70 +765,74 @@
         </div>
     </section>
 
-    <!---------- Footer start section-------------->
+    <!-------Footer start section-------------->
     <footer id="footer" class="footer-area mx-auto">
-        <div class="row justify-content-md-center px-2">
+        <div class="container">
+            <div class="row justify-content-md-center px-2">
 
-            <div class="col-12 col-md-4 com-info text-center text-md-left com-address">
-                <img class="mt-5 mb-3 img-fluid" src="./assets/images/footer-logo.png">
-                <p class="mb-5 text-center text-md-left">Suscipit libero pretium nullam potenti. Interdum,
-                    blandit
-                    phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin
-                    pede
-                    nam maecenas, dolor sem.</p>
+                <div class="col-12 col-md-4 com-info text-center text-md-left com-address">
+                    <img class="mb-3 img-fluid" src="./assets/images/footer-logo.png">
+                    <p class="mb-5 text-center text-md-left">Suscipit libero pretium nullam potenti. Interdum,
+                        blandit
+                        phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin
+                        pede
+                        nam maecenas, dolor sem.</p>
 
-                <div class="social-media d-flex justify-content-around">
-                    <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M21.9904 10.2594C22.661 9.69942 23.4464 9.03162 23.7992 8.28962C23.2252 8.57522 22.5462 8.76142 21.7846 8.86502C22.4818 8.35402 23.053 7.71982 23.347 6.80842C22.6288 7.18922 21.884 7.53642 20.9642 7.71422C18.7942 5.08222 13.5974 7.20742 14.513 11.1232C10.8632 10.8992 8.63859 9.24722 6.78919 7.21862C5.73454 8.93361 6.65197 11.5223 7.89939 12.2307C7.25399 12.1929 6.7668 11.9927 6.29779 11.7799C6.36219 13.9345 7.55079 14.9621 9.21399 15.5207C8.70579 15.6299 8.14439 15.6551 7.6124 15.5613C8.12759 17.0705 9.21679 18.0085 11.062 18.1891C9.81179 19.2587 7.48079 20.0105 5.59919 19.7095C7.2036 20.7301 9.05019 21.5491 11.5954 21.4343C17.7666 21.1557 21.9008 16.7261 21.9904 10.2594ZM14 0C21.7319 0 28 6.26801 28 14C28 21.732 21.7319 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0Z"
-                                fill="white" />
-                        </svg></a>
+                    <div class="social-media d-flex justify-content-around">
+                        <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9904 10.2594C22.661 9.69942 23.4464 9.03162 23.7992 8.28962C23.2252 8.57522 22.5462 8.76142 21.7846 8.86502C22.4818 8.35402 23.053 7.71982 23.347 6.80842C22.6288 7.18922 21.884 7.53642 20.9642 7.71422C18.7942 5.08222 13.5974 7.20742 14.513 11.1232C10.8632 10.8992 8.63859 9.24722 6.78919 7.21862C5.73454 8.93361 6.65197 11.5223 7.89939 12.2307C7.25399 12.1929 6.7668 11.9927 6.29779 11.7799C6.36219 13.9345 7.55079 14.9621 9.21399 15.5207C8.70579 15.6299 8.14439 15.6551 7.6124 15.5613C8.12759 17.0705 9.21679 18.0085 11.062 18.1891C9.81179 19.2587 7.48079 20.0105 5.59919 19.7095C7.2036 20.7301 9.05019 21.5491 11.5954 21.4343C17.7666 21.1557 21.9008 16.7261 21.9904 10.2594ZM14 0C21.7319 0 28 6.26801 28 14C28 21.732 21.7319 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0Z"
+                                    fill="white" />
+                            </svg></a>
 
-                    <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M14 0C6.26793 0 0 6.26793 0 14C0 21.7321 6.26793 28 14 28C21.7321 28 28 21.7321 28 14C28 6.26793 21.7321 3.56038e-07 14 3.56038e-07V0ZM17.3163 9.67459H15.2119C14.9625 9.67459 14.6854 10.0027 14.6854 10.4388V11.9583H17.3177L16.9196 14.1254H14.6854V20.631H12.2019V14.1254H9.94874V11.9583H12.2019V10.6837C12.2019 8.85499 13.4706 7.36894 15.2119 7.36894H17.3163V9.67456V9.67459Z"
-                                fill="white" />
-                        </svg></a>
+                        <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14 0C6.26793 0 0 6.26793 0 14C0 21.7321 6.26793 28 14 28C21.7321 28 28 21.7321 28 14C28 6.26793 21.7321 3.56038e-07 14 3.56038e-07V0ZM17.3163 9.67459H15.2119C14.9625 9.67459 14.6854 10.0027 14.6854 10.4388V11.9583H17.3177L16.9196 14.1254H14.6854V20.631H12.2019V14.1254H9.94874V11.9583H12.2019V10.6837C12.2019 8.85499 13.4706 7.36894 15.2119 7.36894H17.3163V9.67456V9.67459Z"
+                                    fill="white" />
+                            </svg></a>
 
-                    <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M18.375 14C18.375 16.4164 16.4164 18.375 14 18.375C11.5836 18.375 9.625 16.4164 9.625 14C9.625 13.7506 9.65126 13.5071 9.69646 13.2708H8.16667V19.0998C8.16667 19.5052 8.49479 19.8333 8.90022 19.8333H19.1013C19.5052 19.8333 19.8333 19.5052 19.8333 19.0998V13.2708H18.3035C18.3487 13.5071 18.375 13.7506 18.375 14ZM14 16.9167C15.61 16.9167 16.9167 15.61 16.9167 14C16.9167 12.39 15.61 11.0833 14 11.0833C12.39 11.0833 11.0833 12.39 11.0833 14C11.0833 15.61 12.39 16.9167 14 16.9167ZM17.5 10.9375H19.2485C19.4906 10.9375 19.6875 10.7406 19.6875 10.5V8.75145C19.6875 8.50938 19.4906 8.3125 19.2485 8.3125H17.5C17.2579 8.3125 17.061 8.50938 17.061 8.75145V10.5C17.0625 10.7406 17.2594 10.9375 17.5 10.9375ZM14 0C6.26793 0 0 6.26793 0 14C0 21.7321 6.26793 28 14 28C21.7321 28 28 21.7321 28 14C28 6.26793 21.7321 3.56038e-07 14 3.56038e-07V0ZM21.2917 19.6715C21.2917 20.5625 20.5625 21.2917 19.6715 21.2917H8.32854C7.4375 21.2917 6.70833 20.5625 6.70833 19.6715V8.32854C6.70833 7.4375 7.4375 6.70833 8.32854 6.70833H19.6715C20.5625 6.70833 21.2917 7.4375 21.2917 8.32854V19.6715Z"
-                                fill="white" />
-                        </svg></a>
+                        <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.375 14C18.375 16.4164 16.4164 18.375 14 18.375C11.5836 18.375 9.625 16.4164 9.625 14C9.625 13.7506 9.65126 13.5071 9.69646 13.2708H8.16667V19.0998C8.16667 19.5052 8.49479 19.8333 8.90022 19.8333H19.1013C19.5052 19.8333 19.8333 19.5052 19.8333 19.0998V13.2708H18.3035C18.3487 13.5071 18.375 13.7506 18.375 14ZM14 16.9167C15.61 16.9167 16.9167 15.61 16.9167 14C16.9167 12.39 15.61 11.0833 14 11.0833C12.39 11.0833 11.0833 12.39 11.0833 14C11.0833 15.61 12.39 16.9167 14 16.9167ZM17.5 10.9375H19.2485C19.4906 10.9375 19.6875 10.7406 19.6875 10.5V8.75145C19.6875 8.50938 19.4906 8.3125 19.2485 8.3125H17.5C17.2579 8.3125 17.061 8.50938 17.061 8.75145V10.5C17.0625 10.7406 17.2594 10.9375 17.5 10.9375ZM14 0C6.26793 0 0 6.26793 0 14C0 21.7321 6.26793 28 14 28C21.7321 28 28 21.7321 28 14C28 6.26793 21.7321 3.56038e-07 14 3.56038e-07V0ZM21.2917 19.6715C21.2917 20.5625 20.5625 21.2917 19.6715 21.2917H8.32854C7.4375 21.2917 6.70833 20.5625 6.70833 19.6715V8.32854C6.70833 7.4375 7.4375 6.70833 8.32854 6.70833H19.6715C20.5625 6.70833 21.2917 7.4375 21.2917 8.32854V19.6715Z"
+                                    fill="white" />
+                            </svg></a>
+                    </div>
+                </div>
+
+                <div class="col-5 col-md-4 com-explore ">
+                    <h4 class="mb-4">Explore</h4>
+                    <ul class="list-unstyled text-white">
+                        <li><a class="" href="./index.html">Home</a></li>
+                        <li><a class="" href="#heroArea">About</a></li>
+                        <li><a class="" href="#services">Services</a></li>
+                        <li><a class="" href="#past-work">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 com-info">
+                    <h4 class="mb-4">Contact Information</h4>
+                    <p class="mb-3">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer
+                    </p>
+                    <p class="mb-2 contact-info">+234 81 6359 0000</p>
+                    <p class="contact-info mb-5">Info@oyaglam.com</p>
                 </div>
             </div>
-
-            <div class="col-5 col-md-2 px-3 com-explore ">
-                <h4 class="mb-4">Explore</h4>
-                <ul class="list-unstyled text-white">
-                    <li><a class="" href="./index.html">Home</a></li>
-                    <li><a class="" href="#heroArea">About</a></li>
-                    <li><a class="" href="#services">Services</a></li>
-                    <li><a class="" href="#past-work">Gallery</a></li>
-                </ul>
+            <div class="pb-5 row justify-content-center">
+                <p class="copyright text-center">HNGi7 Theme All Rights Reserved -2020</p>
             </div>
-
-            <div class="col-6 col-md-4 px-3 com-info">
-                <h4 class="mb-4">Contact Information</h4>
-                <p class="mb-3">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer
-                </p>
-                <p class="mb-2 contact-info">+234 81 6359 0000</p>
-                <p class="contact-info mb-5">Info@oyaglam.com</p>
-            </div>
-        </div>
-        <div class="pb-5 row justify-content-center">
-            <p class="copyright text-center">HNGi7 Theme All Rights Reserved -2020</p>
         </div>
     </footer>
 
-    <!---------- Container End section------------->
-    </div>
+    <!-------Container End section------------->
+
 
     <!-- Optional JavaScript -->
+
     <script src="./assets/js/script.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -839,4 +845,4 @@
     </script>
 </body>
 
-</html
+</html>
