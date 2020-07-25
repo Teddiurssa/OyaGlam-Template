@@ -67,6 +67,7 @@ nav {
     bottom: 0;
     right: 0;
     left: 0;
+        min-height: 100%;
     background: rgba(255, 236, 236, 0.67);
 }
 
@@ -98,7 +99,7 @@ nav {
 @media (max-width: 448px) {
     .background-image {
         background: url('../images/hero-image1.png') no-repeat;
-        height: 684px;
+        min-height: 684px;
         background-size: cover;
         position: static;
     }
@@ -114,7 +115,8 @@ nav {
 
 @media (min-width: 768px) {
     #heroArea {
-        background-image: #FFECEC !important;      
+        background-image: #FFECEC;
+        min-height: 772px;
     }
 
     #heroArea h2 {
@@ -165,8 +167,15 @@ nav {
     top: 298px;
     height: 102px;
     width: 257px;
-
 }
+#about .video-box a {
+    margin-left: 32px;
+}
+
+#about .video-box p {
+font-size: 1em; 
+    padding-left:20px;
+} 
 
 #about .img-box {
     background-image: url(../images/about-img.png);
@@ -174,12 +183,13 @@ nav {
     background-position: center;
     height: 400px;
     max-width: 700px;
-   
+      
 }
 
 @media (min-width: 768px) {
     #about {
-        height: 524px;
+       min-height: 524px;
+       
     }
 
     #about h4 {
@@ -205,7 +215,7 @@ nav {
 
     #about .video-box {
         top: 278px;
-        height: 122px;
+        min-height: 122px;
     }
 
     #about .img-box {
@@ -245,7 +255,11 @@ nav {
     font-family: 'Prata', serif;
     border-radius: 0px 0px 5px 5px;
     height: 63px;
-
+    position: absolute;
+    width: 291px;
+    top: 77%;
+   
+   
 }
 
 #services .card {
@@ -260,7 +274,7 @@ nav {
 @media (min-width: 768px) {
     #services {
         background-color: #000;
-        height: 778px;
+        min-height: 778px;
     }
 
     #services h4 {
@@ -274,15 +288,19 @@ nav {
         font-size: 1em;
         margin-left: 120px;
         line-height: 160%;
+        margin-bottom: 0px;
     }
 
     #services .lightpink-bg {
-        height: 570px;
-        width: 83%;
+        width:83%;
+       min-height: 570px;
+       position: absolute;
+        left: 122px;
+        top: 1950px;      
     }
 
     #services .card {
-        width: 67%
+       
     }
 
     #services .card-title {
@@ -296,7 +314,7 @@ nav {
     #services .event-card {
         margin-top: 40px;
         margin-bottom: 40px;
-        width: 83%;
+        
     }
 }
 
@@ -379,7 +397,7 @@ nav {
     }
 
     #products svg {
-        margin-bottom: 211px;
+        margin-bottom: 123px;
         margin-top: 40px;
     }
 }
@@ -424,10 +442,6 @@ nav {
     border-radius: 5px 5px 0px 0px;
 }
 
-.carousel-control-prev,
-    .carousel-control-next {
-        position: static;
-    } 
 
 #past-work .card-body {
     background-color: #000000;
@@ -451,6 +465,9 @@ nav {
     #past-work p {
         font-size: 1em;
         line-height: 160%;
+    }
+    #past-work .book-button {
+        margin-top: 172px;
     }
 }
 
