@@ -11,11 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- Awesome Fonts -->
-    <script src="https://kit.fontawesome.com/99021df4e2.js" crossorigin="anonymous"></script>
+    <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
-    <link rel="stylesheet" href="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.js" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -29,7 +26,7 @@
     <!------------------- Nav Bar content----------- -->
     <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light sticky-top px-0">
         <div class="container-fluid navbar-container justify-content-md-center">
-            <a class="navbar-brand p-0 col-7 col-md-2 " href="./index.html">
+            <a class="navbar-brand col-7 col-md-2 " href="./index.html">
                 <img class="img-fluid" src="./assets/images/Oyaglam-logo.png" alt="HNG Logo">
             </a>
             <!-- Collapse button -->
@@ -188,7 +185,7 @@
             <div class="row row-cols-1 row-cols-md-3 lightpink-bg m-auto ">
                 <div class=" col my-4 d-flex justify-content-md-end justify-content-center">
                     <!-- card 1 -->
-                    <div class="card justify-content-md-center wow slideInLeft">
+                    <div class="card justify-content-md-center">
                         <img src="./assets/images/services1.png" class="card-img-top" alt="Lip Liner on Lips">
                         <div class="card-body text-center">
                             <h5 class="card-title p m-0 text-white">Daily <span>makeup</span></h5>
@@ -198,7 +195,7 @@
 
                 <!-- Card 2 -->
                 <div class="col my-0 d-flex justify-content-center">
-                    <div class="card event-card wow slideInUp ">
+                    <div class="card event-card ">
                         <img src="./assets/images/services2.png" class="card-img-top" alt="Wedding Make up">
                         <div class="card-body text-center">
                             <h5 class="card-title p m-0  text-white">Event <span>makeup</span></h5>
@@ -208,7 +205,7 @@
 
                 <!-- card 3 -->
                 <div class="col my-4 d-flex justify-content-md-start justify-content-center">
-                    <div class="card justify-content-md-center wow slideInRight ">
+                    <div class="card justify-content-md-center ">
                         <img src="./assets/images/services3.png" class="card-img-top" alt="Artistic Makeup on face">
                         <div class="card-body text-center">
                             <h5 class="card-title p m-0 text-white">Creative <span>makeup</span></h5>
@@ -218,6 +215,7 @@
             </div>
         </div>
     </section>
+
     <!---------- Products start section------------->
     <section id="products" class="products-area">
         <div class="container">
@@ -238,7 +236,8 @@
                         <a class="nav-link text-center" data-toggle="pill" href="#cosmetics">Cosmetics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" data-toggle="pill" href="#hair">Hair</a>
+                        <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
+                            href="#hair">Hair</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
@@ -701,15 +700,15 @@
                             <input type="text" class=" form-control" placeholder="Subject">
                         </div>
 
-                        <div class="mb-3">
+                        <div class="">
                             <textarea class="form-control" id="formControlTextarea1" rows="6"
                                 placeholder="Message"></textarea>
                         </div>
 
-                        <div class="text-center mx-auto ">
-                            <a class="" href="#"><button type="submit" class="btn mess-btn text-center">Send
-                                    Message
-                                </button></a>
+                        <div class=" d-flex justify-content-center ">
+                            <button type="submit" class=" mess-btn text-center">Send
+                                Message
+                            </button>
                         </div>
                     </form>
                 </div>
