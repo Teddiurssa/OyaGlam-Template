@@ -478,6 +478,9 @@ nav {
 }
 
 @media (min-width: 768px) {
+    #past-work {
+        min-height: 966px;
+    }
 
     #past-work .bg-box {
         max-height: 516px;
@@ -485,7 +488,7 @@ nav {
 
     #past-work .carousel {
         margin-top: 50px;
-        width: 26%;
+        width: 552px;
     }
 
     #past-work h4 {
