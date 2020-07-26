@@ -111,14 +111,24 @@ nav {
         line-height: 43px;
         margin-top: 120px;
     }
-}
+    
+     #past-work .carousel {
+            margin-top: 50px;
+            width: 40%
+        }
+    }
 
 @media (min-width: 768px) {
     #heroArea {
-        background-image: #FFECEC;
+        background-color: #FFECEC;
         min-height: 772px;
     }
-
+    
+    .background-image {
+         background: rgba(0, 0, 0, 0) !important;
+    }
+    
+    
     #heroArea h2 {
         font-size: 3em;
         line-height: 65px;
@@ -190,7 +200,6 @@ nav {
     @media (min-width: 768px) {
         #about {
             min-height: 524px;
-
         }
 
         #about h4 {
@@ -259,12 +268,15 @@ nav {
         position: absolute;
         width: 291px;
         top: 87%;
+       
 
     }
 
     #services .card {
         background: none;
+        text-align: center;
         border: none;
+         overflow: hidden;
     }
 
     #services span {
@@ -272,7 +284,7 @@ nav {
     }
 
     @media (min-width: 768px) {
-        #services {
+        .services {
             background-color: #000;
             min-height: 778px;
         }
@@ -315,14 +327,16 @@ nav {
         }
 
         #services .event-card .card-body {
-            width: 369px;
+            width: 100%;
             top: 88%;
         }
 
     }
 
     /*----------------Products Styles ---------------*/
-    #products h4 {
+  
+
+#products h4 {
         color: #FF4A6B;
         font-family: 'Prata', serif;
         margin-top: 48px;
@@ -388,6 +402,10 @@ nav {
     }
 
     @media (min-width: 768px) {
+        #products {
+    min-height: 1401px;
+}    
+
         #products h4 {
             margin-top: 236px;
             font-size: 3em;
@@ -408,12 +426,12 @@ nav {
     /*----------------Past Work Styles ---------------*/
     #past-work {
         background: #fff;
-        height: 753px;
+      min-height: 753px;
     }
 
     #past-work .bg-box {
         background-color: #000;
-        height: 516px;
+        max-height:391px;
     }
 
     #past-work h4 {
@@ -435,7 +453,7 @@ nav {
         width: 144px;
         margin-bottom: 48px;
         border: none;
-        margin-top: 100px;
+        margin-top: 24px;
     }
 
     #past-work .book-button:hover {
@@ -457,8 +475,14 @@ nav {
     }
 
     @media (min-width: 768px) {
+        
+         #past-work .bg-box {
+               max-height:516px;
+    }
+        
         #past-work .carousel {
-            width: 25%;
+            margin-top: 50px;
+            width: 26%;
         }
 
         #past-work h4 {
@@ -472,7 +496,7 @@ nav {
         }
 
         #past-work .book-button {
-            margin-top: 172px;
+            margin-top: 40px;
         }
     }
 
@@ -496,6 +520,8 @@ nav {
     #pricing .card-body h4 {
         color: #FF4A6B;
         margin-top: 48px;
+        line-height: 33px;
+        
     }
 
     #pricing .card-body h1 {
@@ -514,8 +540,8 @@ nav {
     #pricing .book-button {
         color: #FF4A6B;
         background-color: #FFF;
-        width: 144px;
-        height: 54px;
+        min-width: 144px;
+        min-height: 54px;
         border: 1px solid #FF4A6B;
         box-sizing: border-box;
         border-radius: 5px;
@@ -530,6 +556,8 @@ nav {
     #pricing .card {
         margin-bottom: 24px;
         width: 77%;
+      height:395px;
+        
     }
 
     @media (min-width: 768px) {
