@@ -193,7 +193,7 @@
                     <div class=" col my-4 d-flex justify-content-md-end justify-content-center">
 
                         <!-- card 1 -->
-                        <div class="card justify-content-md-center">
+                        <div class="card d-flex justify-content-md-center">
                             <img src="./assets/images/services1.png" class="card-img-top" alt="Lip Liner on Lips">
                             <h5 class="card-body text-center card-title p m-0 text-white">Daily <span>makeup</span></h5>
                         </div>
@@ -202,7 +202,7 @@
                     <!-- Card 2 -->
                     <div class="col my-0 d-flex justify-content-center">
                         <div class="card event-card ">
-                            <img src="./assets/images/services2.png" class="card-img-top" alt="Wedding Make up">
+                            <img src="./assets/images/services2.png" class="card-img-top w-100" alt="Wedding Make up">
                             <h5 class="card-body text-center card-title p m-0  text-white">Event <span>makeup</span>
                             </h5>
                         </div>
@@ -233,7 +233,7 @@
 
             <!-- Pill Buttons panes -->
 
-            <div class="row justify-content-start justify-content-md-center ">
+            <div class="row row-cols-2 justify-content-start justify-content-md-center ">
                 <ul class="nav nav-pills flex-nowrap" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link text-center active" data-toggle="pill" href="#all">All</a>
@@ -242,12 +242,10 @@
                         <a class="nav-link text-center" data-toggle="pill" href="#cosmetics">Cosmetics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
-                            href="#hair">Hair</a>
+                        <a class="nav-link text-center " data-toggle="pill" href="#hair">Hair</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center d-sm-none d-none d-md-block" data-toggle="pill"
-                            href="#cream">Cream</a>
+                        <a class="nav-link text-center " data-toggle="pill" href="#cream">Cream</a>
                     </li>
                 </ul>
             </div>
@@ -440,41 +438,54 @@
                 </div>
             </div>
         </div>
-        <!--Controls-->
-        <div class="row justify-content-center">
-            <div class="col-4 col-md-1 p-0 d-flex justify-content-between">
-                <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                    <defs>
-                        <style>
-                            .cls-1 {
-                                fill: none;
-                                stroke: #9b9b9b;
-                            }
 
-                            .cls-2 {
-                                fill: #9b9b9b;
-                            }
-                        </style>
-                    </defs>
-                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
-                    <path class="cls-2"
-                        d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
-                </svg>
-                <svg id="Layer_1" class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                    <defs>
-                        <style>
-                            .cls-1 {
-                                fill: none;
-                                stroke: #000;
-                            }
-                        </style>
-                    </defs>
-                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
-                    <path
-                        d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
-                </svg>
-            </div>
+
+        <!--Controls-->
+        <div class="row justify-content-center ">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true"><svg id="Layer_1" class="" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                                    <defs>
+                                        <style>
+                                            .cls-1 {
+                                                fill: none;
+                                                stroke: #9b9b9b;
+                                            }
+
+                                            .cls-2 {
+                                                fill: #9b9b9b;
+                                            }
+                                        </style>
+                                    </defs>
+                                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
+                                    <path class="cls-2"
+                                        d="M27.69,29.2a1.05,1.05,0,0,1-1.49,1.49l-5.89-6a1.06,1.06,0,0,1,0-1.49l5.89-5.94a1.05,1.05,0,0,1,1.49,1.49L22.86,24Z" />
+                                </svg></span> </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true"> <svg id="Layer_1" class="" data-name="Layer 1"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                                    <defs>
+                                        <style>
+                                            .cls-1 {
+                                                fill: none;
+                                                stroke: #000;
+                                            }
+                                        </style>
+                                    </defs>
+                                    <circle class="cls-1" cx="24" cy="24" r="23.5" />
+                                    <path
+                                        d="M25.14,24l-4.83-5.2a1.05,1.05,0,0,1,1.49-1.49l5.89,5.94a1.06,1.06,0,0,1,0,1.49l-5.89,6a1.05,1.05,0,0,1-1.49-1.49Z" />
+                                </svg></span> </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+
         <!--/.Controls-->
     </section>
 
@@ -489,9 +500,7 @@
                     <div class="col-10 col-md-6 text-center ">
                         <h4 class="">Gallery from Past work</h4>
                         <p class="text-white">Suscipit libero pretium nullam potenti. Interdum, blandit
-                            phasellus
-                            consectetuer
-                            dolor
+                            phasellus consectetuer dolor
                         </p>
                     </div>
                 </div>
@@ -715,8 +724,7 @@
                 <div id="map-container" class="p-0 col-12 col-md-6 z-depth-1-half map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5230.442230977823!2d-122.772551!3d49.04441920000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1595486821696!5m2!1sen!2sca"
-                        name="myiFrame" scrolling="no" frameborder="1" height="622px" width="500px"
-                        allowfullscreen></iframe>
+                        name="myiFrame" scrolling="no" frameborder="1" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
