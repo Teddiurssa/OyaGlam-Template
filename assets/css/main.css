@@ -409,7 +409,7 @@ nav {
 
 @media (min-width: 768px) {
     #products {
-        margin-top: 236px;
+        margin-top: 200px;
     }
 
     #products h4 {
@@ -479,6 +479,7 @@ nav {
 
 @media (min-width: 768px) {
     #past-work {
+        margin-top: 123px;
         min-height: 966px;
     }
 
