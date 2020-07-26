@@ -503,6 +503,7 @@ nav {
     /*----------------Pricing Styles ---------------*/
     #pricing {
         background: #FFECEC;
+        overflow: hidden;
     }
 
     #pricing h2 {
@@ -517,16 +518,21 @@ nav {
         line-height: 160%;
     }
 
+#pricing .card-body {
+       padding: 20px 30px 24px 30px;
+}
+
     #pricing .card-body h4 {
         color: #FF4A6B;
-        margin-top: 48px;
+        margin-top: 18px;
         line-height: 33px;
-        
+        font-family: 'Prata', serif;       
     }
 
     #pricing .card-body h1 {
         font-family: 'Prata', serif;
         font-size: 48px;
+        line-height: 65px;
         margin-top: 16px;
         margin-bottom: 24px;
     }
@@ -544,8 +550,7 @@ nav {
         min-height: 54px;
         border: 1px solid #FF4A6B;
         box-sizing: border-box;
-        border-radius: 5px;
-        margin-bottom: 24px;
+        border-radius: 5px;    
     }
 
     #pricing .book-button:hover {
@@ -556,18 +561,14 @@ nav {
     #pricing .card {
         margin-bottom: 24px;
         width: 77%;
-      height:395px;
-        
+        max-height:395px;
+        max-width: 287px;       
     }
 
     @media (min-width: 768px) {
         #pricing {
             margin-top: 80px;
-        }
-
-        #pricing .card {
-            margin-left: 16px;
-            height: 90%;
+             min-height: 717px;
         }
 
         #pricing p {
@@ -579,6 +580,10 @@ nav {
             font-size: 3em;
             line-height: 65px;
             margin-top: 80px;
+        }
+        
+        #pricing .card {
+            margin-left: 16px;
         }
     }
 
